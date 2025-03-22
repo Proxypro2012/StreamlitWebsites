@@ -6,7 +6,7 @@ import time
 st.set_page_config(
     layout="wide",
     page_title="Chromium",
-    page_icon="logo.png",  # Optionally, set a page icon
+    page_icon="chromium/logo.png",  # Optionally, set a page icon
     initial_sidebar_state="expanded"
 )
 
@@ -19,7 +19,7 @@ game_urls = {
 webpages = ["Home", "Games", "Status"]
 st.sidebar.header("Navigation")
 selected_page = st.sidebar.radio("", webpages)
-st.sidebar.image("logo.png")
+st.sidebar.image("chromium/logo.png")
 
 
 
