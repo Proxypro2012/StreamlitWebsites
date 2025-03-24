@@ -23,12 +23,12 @@ if 'cart' not in st.session_state:
 
 # Define item images and prices
 item_images = {
-    "Toga Praetexta": "redtoga.png",
-    "Purple Toga": "purpletoga.png",
-    "White Toga": "whitetoga.png",
-    "Lunula": "lunula.png",
-    "Stola": "stola.png",
-    "Palla": "palla.jpeg"
+    "Toga Praetexta": "OMS-Latin/OMS-ShopRomanClothing/redtoga.png",
+    "Purple Toga": "OMS-Latin/OMS-ShopRomanClothing/purpletoga.png",
+    "White Toga": "OMS-Latin/OMS-ShopRomanClothing/whitetoga.png",
+    "Lunula": "OMS-Latin/OMS-ShopRomanClothing/lunula.png",
+    "Stola": "OMS-Latin/OMS-ShopRomanClothing/stola.png",
+    "Palla": "OMS-Latin/OMS-ShopRomanClothing/palla.jpeg"
 }
 
 # Create columns for layout
