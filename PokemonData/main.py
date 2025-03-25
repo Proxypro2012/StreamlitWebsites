@@ -2,6 +2,7 @@ import requests
 import streamlit as st
 import time
 
+col1, col2 = st.columns(2)
 
 
 
