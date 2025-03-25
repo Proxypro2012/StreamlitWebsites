@@ -310,7 +310,7 @@ with r1col2:
     st.title("Punnett Squares",)
 
 with r2col1:
-    st.image('whiteapple.png', "Apple 1")
+    st.image('Punnet-Squares/whiteapple.png', "Apple 1")
 
 with r3col2:
     if st.button("Cross"):
@@ -321,7 +321,7 @@ if st.session_state.show_card:
     cross_genotypes(alleles1, alleles2, gene)
 
 with r2col3:
-    st.image('whiteapple.png', "Apple 2")
+    st.image('Punnet-Squares/whiteapple.png', "Apple 2")
 
 
 streamlit_extras.let_it_rain.rain('•', 20, falling_speed=5, animation_length="infinite")
