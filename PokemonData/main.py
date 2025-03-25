@@ -75,8 +75,9 @@ if pokemon_name:
         types = [t['type']['name'] for t in pokemon_info['types']]
         st.write(f"Types: {', '.join(types)}")
         st.write(f"Abilities: {', '.join(abilities)}")
-        image_url = pokemon_info['sprites']['front_default']
-        st.image(image_url, caption=f"{pokemon_info.get('name').capitalize()}", width=250)
+        with col2:
+            image_url = pokemon_info['sprites']['front_default']
+            st.image(image_url, caption=f"{pokemon_info.get('name').capitalize()}", width=250)
     else:
         st.write("Pokémon not found or failed to retrieve data.")
 
