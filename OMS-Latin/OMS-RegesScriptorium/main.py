@@ -36,4 +36,4 @@ if selected_page == nav_pages[0]:
   
   
   if st.button("Stream data"):
-      st.write_stream(stream_data)
+      st.write_stream("hello")
