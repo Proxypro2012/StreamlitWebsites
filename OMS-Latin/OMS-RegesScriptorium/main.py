@@ -20,6 +20,12 @@ class RetreiveData(operation):
 if selected_page == nav_pages[0]:
   st.title("The Servius Sentinel")
   st.markdown("***Veni, Vidi, Vici - I came, I saw, I conquered (Julius Caesar)***")
+  for i in range(10):
+    st.write("")
+
+  operation = "retrieveImage"  # You can change this to test different operations
+  data = RetrieveData(operation)
+  data.perform_operation()
 
   
 
