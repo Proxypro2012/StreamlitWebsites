@@ -8,7 +8,7 @@ st.sidebar.title("Navigation")
 selected_page = st.sidebar.radio("", nav_pages)
 
 
-class RetreiveData(operation):
+class RetrieveData(operation):
   def __init__(self, operation):
         self.operation = operation
   def perf_operation(self):
