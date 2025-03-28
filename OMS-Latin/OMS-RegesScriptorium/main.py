@@ -9,8 +9,11 @@ selected_page = st.sidebar.radio("", nav_pages)
 
 
 class RetreiveData(operation):
-  if operation == "retreiveImage":
-    st.image("OMS-Latin/OMS-RegesScriptorium/servius-tullius.jpeg")
+  def __init__(self, operation):
+        self.operation = operation
+  def perf_operation(self):
+    if self.operation == "retrieveImage": 
+      st.image("OMS-Latin/OMS-RegesScriptorium/servius-tullius.jpeg")
   
   
 
