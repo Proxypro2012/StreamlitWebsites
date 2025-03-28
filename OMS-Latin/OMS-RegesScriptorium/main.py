@@ -8,7 +8,7 @@ class RetrieveData:
 
     def perform_operation(self):
         if self.operation == "retrieveImage": 
-            st.image("OMS-Latin/OMS-RegesScriptorium/servius-tullius.jpeg", width = 100)
+            st.image("OMS-Latin/OMS-RegesScriptorium/servius-tullius.jpeg", width = 300)
             
 
 
