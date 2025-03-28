@@ -1,50 +1,27 @@
 import streamlit as st
-import streamlit_extras as ste
-import time
 
-
-nav_pages = (['Home', 'Credits', 'Sources'])
-st.sidebar.title("Navigation")
-selected_page = st.sidebar.radio("", nav_pages)
-
-
-class RetrieveData(operation):
-  def __init__(self, operation):
+# Class definition (removed unnecessary inheritance)
+class RetrieveData:
+    def __init__(self, operation):
         self.operation = operation
-  def perf_operation(self):
-    if self.operation == "retrieveImage": 
-      st.image("OMS-Latin/OMS-RegesScriptorium/servius-tullius.jpeg")
-  
-  
+
+    def perform_operation(self):
+        if self.operation == "retrieveImage": 
+            st.image("OMS-Latin/OMS-RegesScriptorium/servius-tullius.jpeg")
+
+# Simulating page selection (e.g., a navigation bar selection)
+selected_page = "The Servius Sentinel"  # Simulating that the first page is selected
+nav_pages = ["The Servius Sentinel", "Another Page"]  # Example nav pages
 
 if selected_page == nav_pages[0]:
-  st.title("The Servius Sentinel")
-  st.markdown("***Veni, Vidi, Vici - I came, I saw, I conquered (Julius Caesar)***")
-  for i in range(10):
-    st.write("")
+    st.title("The Servius Sentinel")
+    st.markdown("***Veni, Vidi, Vici - I came, I saw, I conquered (Julius Caesar)***")
 
-  operation = "retrieveImage"  # You can change this to test different operations
-  data = RetrieveData(operation)
-  data.perform_operation()
+    # Adding some spacing (optional)
+    for i in range(10):
+        st.write("")
 
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-  TEST = """
-  Lorem ipsum dolor sit amet, **consectetur adipiscing** elit, sed do eiusmod tempor
-  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-  nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  """
-
-
+    # Perform the operation
+    operation = "retrieveImage"  # You can change this to test different operations
+    data = RetrieveData(operation)
+    data.perform_operation()
