@@ -7,7 +7,11 @@ nav_pages = (['Home', 'Credits', 'Sources'])
 st.sidebar.title("Navigation")
 selected_page = st.sidebar.radio("", nav_pages)
 
-#def write_text_consecutively(text, interval):
+
+class RetreiveData(operation):
+  if operation == "retreiveImage":
+    st.image("OMS-Latin/OMS-RegesScriptorium/servius-tullius.jpeg")
+  
   
 
 if selected_page == nav_pages[0]:
@@ -15,7 +19,19 @@ if selected_page == nav_pages[0]:
   st.markdown("***Veni, Vidi, Vici - I came, I saw, I conquered (Julius Caesar)***")
 
   
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
   TEST = """
   Lorem ipsum dolor sit amet, **consectetur adipiscing** elit, sed do eiusmod tempor
   incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
