@@ -12,7 +12,7 @@ selected_page = st.sidebar.radio("", nav_pages)
 
 if selected_page == nav_pages[0]:
   st.title("The Servius Sentinel")
-  st.markdown("*Veni, Vidi, Vici - I came, I saw, I conquered (Julius Caesar)*")
+  st.markdown("***Veni, Vidi, Vici - I came, I saw, I conquered (Julius Caesar)***")
 
   
   
