@@ -42,4 +42,4 @@ if selected_page == nav_pages[0]:
     with r1col2:  # Right column for the text
         st.write("***In Pictura Est Servius Tullius***")
 
-    )
+    
