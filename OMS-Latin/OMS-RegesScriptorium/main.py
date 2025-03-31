@@ -35,4 +35,4 @@ if selected_page == nav_pages[0]:
     data = RetrieveData(operation)
     data.perform_operation()
 
-    st.write("**In Pictura Est Servius Tullius**")
+    st.write("***In Pictura Est Servius Tullius***")
