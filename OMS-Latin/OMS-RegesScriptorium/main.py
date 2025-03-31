@@ -12,8 +12,10 @@ class RetrieveData:
             
 
 
-selected_page = "The Servius Sentinel"  
-nav_pages = ["The Servius Sentinel", "Another Page"] 
+
+nav_pages = ["Home", "Credits"]
+selected_page == st.sidebar.radio(nav_pages)
+
 
 
 if selected_page == nav_pages[0]:
