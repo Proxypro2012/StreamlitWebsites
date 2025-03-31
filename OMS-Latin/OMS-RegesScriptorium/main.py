@@ -14,7 +14,7 @@ class RetrieveData:
 
 
 nav_pages = ["Home", "Credits"]
-st.sidebar.header("Navigation")
+st.sidebar.title("Navigation")
 selected_page = st.sidebar.radio("", nav_pages)
 
 
