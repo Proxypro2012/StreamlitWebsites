@@ -22,9 +22,7 @@ selected_page = st.sidebar.radio("", nav_pages)
 
 if selected_page == nav_pages[0]:
     
-    operation = "displayHomeTitle"
-    data = RetrieveData(operation)
-    data.perform_operation()
+    
     
 
     # Add spacing
@@ -42,3 +40,7 @@ if selected_page == nav_pages[0]:
 
     with r1col2:  # Right column for the text
         st.write("***In Pictura Est Servius Tullius***")
+
+    operation = "displayHomeTitle"
+    data = RetrieveData(operation)
+    data.perform_operation()
