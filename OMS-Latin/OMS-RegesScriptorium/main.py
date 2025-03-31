@@ -2,7 +2,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 
-r1col1 = st.columns([1, 0])
+r1col1, r1col2 = st.columns([1, 0])
 r2col1, r2col2 = st.columns([1, 2])  # Create two columns, one smaller (1) and one larger (2)
 
 class RetrieveData:
