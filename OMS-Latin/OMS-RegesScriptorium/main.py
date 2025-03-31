@@ -23,7 +23,9 @@ selected_page = st.sidebar.radio("", nav_pages)
 if selected_page == nav_pages[0]:
     
     
-    
+    operation = "displayHomeTitle"
+    data = RetrieveData(operation)
+    data.perform_operation()
 
     # Add spacing
     for i in range(10):
@@ -32,7 +34,6 @@ if selected_page == nav_pages[0]:
     operation = "retrieveImage"
     data = RetrieveData(operation)
     
-
     # Add content in two columns
     with r1col1:
         data.perform_operation()# Left column for the image
@@ -41,6 +42,4 @@ if selected_page == nav_pages[0]:
     with r1col2:  # Right column for the text
         st.write("***In Pictura Est Servius Tullius***")
 
-    operation = "displayHomeTitle"
-    data = RetrieveData(operation)
-    data.perform_operation()
+    )
