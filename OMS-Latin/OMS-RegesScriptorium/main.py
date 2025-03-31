@@ -1,7 +1,7 @@
 import streamlit as st
 import matplotlib.pyplot as plt
 import matplotlib.patches as patche
-r1col1, r1col2 = st.columns([2, 2])
+r1col1, r1col2 = st.columns([1, 2])
 
 
 class RetrieveData:
