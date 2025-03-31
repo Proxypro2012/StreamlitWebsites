@@ -33,7 +33,4 @@ if selected_page == nav_pages[0]:
     
     operation = "retrieveImage"
     data = RetrieveData(operation)
-    with r1col2:
-        data.perform_operation()
-    with r1col1:
-        st.write("HI")
+    data.perform_operation()
