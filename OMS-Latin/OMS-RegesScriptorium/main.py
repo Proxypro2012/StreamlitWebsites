@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 
 r1col1, r1col2 = st.columns([1, 0.5])
+rgap1col1, rgap1col2 = st.columns([1, 0.5])
 r2col1, r2col2 = st.columns([1, 2])  # Create two columns, one smaller (1) and one larger (2)
 
 class RetrieveData:
@@ -29,9 +30,9 @@ if selected_page == nav_pages[0]:
     with r1col1:
         data.perform_operation()
 
-    # Add spacing
-    for i in range(10):
-        st.write("")
+    with rgap1col1:
+        for i in range(10):
+            st.write("")
 
     operation = "retrieveImage"
     data = RetrieveData(operation)
