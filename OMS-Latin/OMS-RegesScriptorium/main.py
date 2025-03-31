@@ -36,22 +36,4 @@ if selected_page == nav_pages[0]:
     with r1col2:
         data.perform_operation()
     with r2col2:
-        import streamlit as st
-        fig, ax = plt.subplots()
-        
-        # Create a Rectangle patch
-        rect = patches.Rectangle((0.1, 0.1), 0.6, 0.4, linewidth=2, edgecolor='blue', facecolor='green')
-        
-        # Add the rectangle to the plot
-        ax.add_patch(rect)
-        
-        # Set the limits of the plot
-        ax.set_xlim(0, 1)
-        ax.set_ylim(0, 1)
-        
-        # Remove axes
-        ax.axis('off')
-        
-        # Display the plot in Streamlit
-        st.pyplot(fig)
-
+        st.write("HI")
