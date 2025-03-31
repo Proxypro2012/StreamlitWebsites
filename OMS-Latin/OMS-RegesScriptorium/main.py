@@ -35,5 +35,5 @@ if selected_page == nav_pages[0]:
     data = RetrieveData(operation)
     with r1col2:
         data.perform_operation()
-    with r2col2:
+    with r1col2:
         st.write("HI")
