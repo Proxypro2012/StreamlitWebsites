@@ -42,7 +42,8 @@ if selected_page == nav_pages[0]:
         data.perform_operation()# Left column for the image
         
 
-    with r2col2:  # Right column for the text
-        st.write("***In Pictura Est Servius Tullius***")
+    with r2col2:
+        st.write("Servius Tullius est sextus rex")
+    st.write("***In Pictura Est Servius Tullius***")
 
     
