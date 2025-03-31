@@ -27,11 +27,12 @@ if selected_page == nav_pages[0]:
 
     operation = "retrieveImage"
     data = RetrieveData(operation)
-    data.perform_operation()
+    
 
     # Add content in two columns
-    with r1col1:  # Left column for the image
-        st.image("OMS-Latin/OMS-RegesScriptorium/servius-tullius.jpeg", width=300)
+    with r1col1:
+        data.perform_operation()# Left column for the image
+        
 
     with r1col2:  # Right column for the text
         st.write("***In Pictura Est Servius Tullius***")
