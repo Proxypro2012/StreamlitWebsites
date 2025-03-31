@@ -2,7 +2,8 @@ import streamlit as st
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 
-r1col1, r1col2 = st.columns([1, 2])  # Create two columns, one smaller (1) and one larger (2)
+r1col1 = st.columns([1])
+r2col1, r2col2 = st.columns([1, 2])  # Create two columns, one smaller (1) and one larger (2)
 
 class RetrieveData:
     def __init__(self, operation):
@@ -25,7 +26,8 @@ if selected_page == nav_pages[0]:
     
     operation = "displayHomeTitle"
     data = RetrieveData(operation)
-    data.perform_operation()
+    with r1col1:
+        data.perform_operation()
 
     # Add spacing
     for i in range(10):
@@ -35,11 +37,11 @@ if selected_page == nav_pages[0]:
     data = RetrieveData(operation)
     
     # Add content in two columns
-    with r1col1:
+    with r2col1:
         data.perform_operation()# Left column for the image
         
 
-    with r1col2:  # Right column for the text
+    with r2col2:  # Right column for the text
         st.write("***In Pictura Est Servius Tullius***")
 
     
