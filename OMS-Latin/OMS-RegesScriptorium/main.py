@@ -34,3 +34,5 @@ if selected_page == nav_pages[0]:
     operation = "retrieveImage"
     data = RetrieveData(operation)
     data.perform_operation()
+
+    st.write("Hello!")
