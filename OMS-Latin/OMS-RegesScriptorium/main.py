@@ -1,6 +1,4 @@
 import streamlit as st
-import matplotlib.pyplot as plt
-import matplotlib.patches as patches
 
 r1col1, r1col2 = st.columns([1, 0.5])
 rgap1col1, rgap1col2 = st.columns([1, 0.5])
