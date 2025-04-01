@@ -42,7 +42,7 @@ if selected_page == nav_pages[0]:
 
     with r2col2:
         st.subheader("**The Rise**")
-        st.radio("", "Servius Tullius est sextus rex")
+        st.write("Servius Tullius est sextus rex")
     
     
     st.write("***In Pictura Est Servius Tullius***")
