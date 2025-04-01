@@ -41,7 +41,10 @@ if selected_page == nav_pages[0]:
         
 
     with r2col2:
+        st.header("The Rise")
         st.write("Servius Tullius est sextus rex")
+    
+    
     st.write("***In Pictura Est Servius Tullius***")
 
     
