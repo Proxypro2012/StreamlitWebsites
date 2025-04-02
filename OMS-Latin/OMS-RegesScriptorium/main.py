@@ -45,6 +45,6 @@ if selected_page == nav_pages[0]:
         st.write("Servius Tullius est sextus rex")
     
     
-    st.write("***In Pictura Est Servius Tullius***")
+    
 
     
