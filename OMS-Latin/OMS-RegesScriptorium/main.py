@@ -10,7 +10,7 @@ class RetrieveData:
 
     def perform_operation(self):
         if self.operation == "retrieveImage": 
-            st.image("OMS-Latin/OMS-RegesScriptorium/servius-tullius.jpeg", width=235, caption="***In Pictura Est Servius Tullius***")
+            st.image("OMS-Latin/OMS-RegesScriptorium/servius-tullius.jpeg", width=230, caption="***In Pictura Est Servius Tullius***")
         if self.operation == "displayHomeTitle":
             st.title("The Servius Sentinel")
             st.markdown("***Veni, Vidi, Vici - I came, I saw, I conquered (Julius Caesar)***")
