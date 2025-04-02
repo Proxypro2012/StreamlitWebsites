@@ -42,7 +42,10 @@ if selected_page == nav_pages[0]:
 
     with r2col2:
         st.subheader("**The Rise**")
-        st.write("Servius Tullius est sextus rex")
+        #st.write("Servius Tullius est sextus rex")
+        st.write("Servius Tullius natus est servus")
+        st.write("Tarquinnius Priscus est quintus rex. Uxor eius est Tanaquil. Tanaqil videt ignis cirum Servius caput.")
+        
     
     
     
