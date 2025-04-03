@@ -21,6 +21,16 @@ nav_pages = ["Home", "Credits"]
 st.sidebar.title("Navigation")
 selected_page = st.sidebar.radio("", nav_pages)
 
+if selected_page == nav_page[1]:
+    st.title("Credits")
+    st.write("Developers and Writers")
+
+    for i in range(10):
+        st.write("")
+
+    st.write("Kabir Tiwari - Developer and Writer")
+    st.write("Gunner Gordon - Writer and Designer")
+
 if selected_page == nav_pages[0]:
     
     
