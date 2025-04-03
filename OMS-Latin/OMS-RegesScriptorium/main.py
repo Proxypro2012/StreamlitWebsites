@@ -62,7 +62,7 @@ if selected_page == nav_pages[0]:
 
     with r3col1:
         st.header("The Rise")
-        st.markdown("Servius Tullius was born a slave. One day, the wife of the fifth roman king Tarquinius Priscus, Tanaquil, saw the young boy with a ring of fire around his head. She interpreted this as a sign from the gods. She told Tarquinius Priscus, and the two of them decided to raise Servius Tullius to be the next king.")
+        st.markdown("**Servius Tullius** was born a slave. One day, the wife of the fifth roman king **Tarquinius Priscus**, **Tanaquil**, saw the young boy with a ring of fire around his head. She interpreted this as a sign from the gods. She told **Tarquinius Priscus**, and the two of them decided to raise **Servius Tullius** to be the next king.")
 
     with r3col2:
         st.header("The Rule")
