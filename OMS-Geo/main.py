@@ -22,8 +22,8 @@ levels = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 def update_progress_bar(currentLevel, delay):
         level = currentLevel
         for i in range(1, level + 1):
-        progress_bar.progress(i * 10, text=(f'Question {str(level)}/10'))
-        time.sleep(int(delay))  # Simulating a delay for each level
+                progress_bar.progress(i * 10, text=(f'Question {str(level)}/10'))
+                time.sleep(int(delay))  # Simulating a delay for each level
 
 
 level = 7
