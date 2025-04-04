@@ -21,4 +21,4 @@ if st.button("Level 1"):
 if st.button("Level 2"):
         level = 2
         for level in levels:
-            progress_bar.progress(level+1, text=progress_text)
+            progress_bar.progress(level[1], text=progress_text)
