@@ -12,7 +12,9 @@ with r1col2:
         st.title("Mahatma Gandhi Quiz")
 
 progress_text = "Operation in progress. Please wait."
-progress_bar = st.progress(0, text=progress_text)
+
+with r2col2:
+        progress_bar = st.progress(0, text=progress_text)
 
 # Create the list of levels
 levels = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -31,7 +33,7 @@ for i in range(1, level + 1):
 
 st.divider()
 
-with r2col2:
+with r3col2:
     st.header("Questions")
     
 
