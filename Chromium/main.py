@@ -12,7 +12,7 @@ st.set_page_config(
 
 
 game_urls = {
-    "getaway_shootout": "https://selenite-e3u.pages.dev/getawayshooter/"
+    "getaway_shootout": "https://xlegends.github.io/slope-1/"
 }
 
 
