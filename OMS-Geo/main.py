@@ -7,7 +7,9 @@ r3col1, r3col2, r3col3 = st.columns([1, 2, 1])
 r4col1, r4col2, r4col3 = st.columns([1, 2, 1])
 r5col1, r5col2, r5col3 = st.columns([1, 2, 1])
 
-st.title("Mahatma Gandhi Quiz")
+
+with r1col2:
+        st.title("Mahatma Gandhi Quiz")
 
 progress_text = "Operation in progress. Please wait."
 progress_bar = st.progress(0, text=progress_text)
@@ -29,7 +31,7 @@ for i in range(1, level + 1):
 
 st.divider()
 
-with r1col2:
+with r2col2:
     st.header("Questions")
     
 
