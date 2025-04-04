@@ -17,8 +17,8 @@ levels = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 if st.button("Level 1"):
         level = 1
         for level in levels:
-            progress_bar.progress(level, text=progress_text)
+            progress_bar.progress(level+1, text=progress_text)
 if st.button("Level 2"):
         level = 2
         for level in levels:
-            progress_bar.progress(level, text=progress_text)
+            progress_bar.progress(level+1, text=progress_text)
