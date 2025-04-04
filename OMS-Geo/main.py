@@ -1,11 +1,11 @@
 import streamlit as st
 import time
 
-r1col1, r1col2, r1col3 = (1, 2, 1)
-r2col1, r2col2, r2col3 = (1, 2, 1)
-r3col1, r3col2, r3col3 = (1, 2, 1)
-r4col1, r4col2, r4col3 = (1, 2, 1)
-r5col1, r5col2, r5col3 = (1, 2, 1)
+r1col1, r1col2, r1col3 = ([1, 2, 1])
+r2col1, r2col2, r2col3 = ([1, 2, 1])
+r3col1, r3col2, r3col3 = ([1, 2, 1])
+r4col1, r4col2, r4col3 = ([1, 2, 1])
+r5col1, r5col2, r5col3 = ([1, 2, 1])
 
 st.title("Mahatma Gandhi Quiz")
 
