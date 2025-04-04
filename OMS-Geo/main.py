@@ -12,6 +12,7 @@ levels = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 progress_bar.progress(level, text-progress_text)
 
-if st.button("Level 1")
+if st.button("Level 1"):
     level = 1
-if st.button("Level 2")
+if st.button("Level 2"):
+    level = 2
