@@ -19,17 +19,16 @@ with r2col2:
 # Create the list of levels
 levels = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-
-level = 1
-for i in range(1, level + 1):
+def update_progress_bar(currentLevel, delay)
+        level = currentLevel
+        for i in range(1, level + 1):
         progress_bar.progress(i * 10, text=(f'Question {str(level)}/10'))
-        time.sleep(0.5)  # Simulating a delay for each level
+        time.sleep(int(delay))  # Simulating a delay for each level
 
 
-level = 2
-for i in range(1, level + 1):
-        progress_bar.progress(i * 10, text=(f'Question {str(level)}/10'))
-        time.sleep(0.5)  # Simulating a delay for each level
+level = 7
+update_progress_bar(currentLevel=level, delay=0.05)
+
 
 with r3col2:
         st.divider()
