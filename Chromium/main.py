@@ -44,21 +44,7 @@ if selected_page == webpages[1]:
     # Alternative option: Provide a clickable link
     st.subheader("Alternative Link")
     
-    cloak_script = """
-        <script>
-            function cloak() {
-                let win = window.open("about:blank", "_blank");
-                if (win) {
-                    win.document.write('<iframe src="https://xlegends.github.io/slope-1/" style="width:100vw;height:100vh;border:none;"></iframe>');
-                    win.document.title = "Game";
-                } else {
-                    alert("Popup blocked! Allow popups and try again.");
-                }
-            }
-        </script>
-        <button onclick="cloak()" style="padding: 10px 20px; font-size: 16px; cursor: pointer;">Open Popup</button>
-    """
-    
+     st.markdown(f'[Click here to play Slope 1]({game_urls["slope_1"]})', unsafe_allow_html=True)
     st.markdown(cloak_script, unsafe_allow_html=True)
     
     # Additional app features
