@@ -44,7 +44,13 @@ if selected_page == webpages[1]:
     # Alternative option: Provide a clickable link
     st.subheader("Alternative Link")
     
-    st.markdown(f'[Click here to play Slope 1]({game_urls["slope_1"]})', unsafe_allow_html=True)
+    button_code = f"""
+    <button onclick="window.open('{game_urls["slope_1"]}', '_blank')" 
+            style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
+        Click here to play Slope 1 (opens in new tab)
+    </button>
+    """
+    components.html(button_code, height=50)
     
     # Additional app features
     st.text("Enjoy playing Slope 1!")
