@@ -10,7 +10,7 @@ levels = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 for level in levels:
     time.sleep(0.01)
-    progress_bar.progress(percent_complete + 1, text=progress_text)
+    progress_bar.progress(level + 1, text=progress_text)
 time.sleep(1)
 progress_bar.empty()
   
