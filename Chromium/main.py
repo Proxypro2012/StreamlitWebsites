@@ -44,7 +44,7 @@ if selected_page == webpages[1]:
     # Alternative option: Provide a clickable link
     st.subheader("Alternative Link")
     
-     st.markdown(f'[Click here to play Slope 1]({game_urls["slope_1"]})', unsafe_allow_html=True)
+    st.markdown(f'[Click here to play Slope 1]({game_urls["slope_1"]})', unsafe_allow_html=True)
     st.markdown(cloak_script, unsafe_allow_html=True)
     
     # Additional app features
