@@ -20,8 +20,9 @@ with r2col2:
 # Create the list of levels
 levels = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-def retrieve_question(id)
-        if id == int(1)
+def retrieve_question(id):
+        if id == int(1):
+            pass
                 
 
 def update_progress_bar(currentLevel, delay):
