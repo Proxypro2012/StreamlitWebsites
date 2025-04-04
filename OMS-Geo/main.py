@@ -6,11 +6,12 @@ st.title("Mahatma Gandhi Quiz")
 progress_text = "Operation in progress. Please wait."
 progress_bar = st.progress(0, text=progress_text)
 
+
+level = 0
 levels = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-for level in levels:
-    time.sleep(0.01)
-    progress_bar.progress(level + 1, text=progress_text)
-time.sleep(1)
-progress_bar.empty()
-  
+progress_bar.progress(level, text-progress_text)
+
+if st.button("Level 1")
+    level = 1
+if st.button("Level 2")
