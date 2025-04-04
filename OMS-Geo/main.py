@@ -36,12 +36,11 @@ level = 7
 update_progress_bar(currentLevel=level, delay=0.05)
 
 with r4col1:
-    st.header(f"Question {level}")
+    st.subheader(f"Question {level}")
         
-with r5col2:
-    st.divider()
 
-with r6col2:
+
+with r5col2:
     st.title("")
     
 
