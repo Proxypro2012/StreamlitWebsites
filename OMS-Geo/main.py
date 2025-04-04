@@ -31,6 +31,9 @@ def update_progress_bar(currentLevel, delay):
                 progress_bar.progress(i * 10, text=(f'Question {str(level)}/10'))
                 time.sleep(int(delay))  # Simulating a delay for each level
 
+questions = {'question_1': "When was Mahatma Gandhi born?" 
+           
+           }
 
 level = 7
 update_progress_bar(currentLevel=level, delay=0.05)
@@ -41,7 +44,7 @@ with r4col1:
 
 
 with r5col2:
-    st.title("")
+    st.title(str(questions['question_1']))
     
 
 
