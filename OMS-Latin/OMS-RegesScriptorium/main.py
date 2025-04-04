@@ -66,7 +66,7 @@ if selected_page == nav_pages[0]:
 
     with r3col2:
         st.header("The Rule")
-        st.markdown("**Servius Tullius** was a great king. He had many accomplishments during his rule, including **expanding the walls** around **Rome**. He also held the first official **census**, a count of the population. He also had **success in battles** and he also brought the **Cult of Diana** to **Rome**.")
+        st.write("**Servius Tullius** was a great king. He had many accomplishments during his rule, including **expanding the walls** around **Rome**. He also held the first official **census**, a count of the population. He also had **success in battles** and he also brought the **Cult of Diana** to **Rome**.")
 
 
     
