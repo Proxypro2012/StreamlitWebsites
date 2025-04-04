@@ -44,13 +44,21 @@ if selected_page == webpages[1]:
     # Alternative option: Provide a clickable link
     st.subheader("Alternative Link")
     
-    button_code = f"""
-    <button onclick="window.open('{game_urls["slope_1"]}', '_blank')" 
+    js_code = f"""
+    <script>
+    function openCloaked() {{
+        var w = window.open('about:blank', '_blank');
+        setTimeout(function() {{
+            w.location.href = '{game_urls["slope_1"]}';
+        }}, 100);
+    }}
+    </script>
+    <button onclick="openCloaked()" 
             style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
-        Click here to play Slope 1 (opens in new tab)
+        Click here to play Slope 1
     </button>
     """
-    components.html(button_code, height=50)
+    components.html(js_code, height=50)
     
     # Additional app features
     st.text("Enjoy playing Slope 1!")
