@@ -4,11 +4,13 @@ import time
 st.title("Mahatma Gandhi Quiz")
 
 progress_text = "Operation in progress. Please wait."
-my_bar = st.progress(0, text=progress_text)
+progress_bar = st.progress(0, text=progress_text)
 
-for percent_complete in range(100):
+levels = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+for level in levels:
     time.sleep(0.01)
-    my_bar.progress(percent_complete + 1, text=progress_text)
+    progress_bar.progress(percent_complete + 1, text=progress_text)
 time.sleep(1)
-my_bar.empty()
+progress_bar.empty()
   
