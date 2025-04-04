@@ -13,7 +13,7 @@ levels = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 if st.button("Level 1"):
     level = 1
     for i in range(1, level + 1):
-        progress_bar.progress(i * 10, text=(st.header(f'Question {str(level)}/10')_)
+        progress_bar.progress(i * 10, text=(st.header(f'Question {str(level)}/10'))
         time.sleep(0.5)  # Simulating a delay for each level
 
 if st.button("Level 2"):
