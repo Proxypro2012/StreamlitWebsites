@@ -12,7 +12,7 @@ st.set_page_config(
 
 
 game_urls = {
-    "getaway_shootout": "https://xlegends.github.io/slope-1/"
+    "slope_1": "https://xlegends.github.io/slope-1/"
 }
 
 
@@ -35,9 +35,9 @@ if selected_page == webpages[0]:
     
     
 if selected_page == webpages[1]:
-    st.subheader("Getaway Shootout!")
+    st.subheader("Slope 1")
     try:
-        components.iframe(game_urls["getaway_shootout"], width=800, height=605)
+        components.iframe(game_urls["slope_1"], width=800, height=605)
     except:
         st.error("Embedding failed. Use the link below to play the game.")
     
