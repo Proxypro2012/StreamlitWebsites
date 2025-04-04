@@ -31,9 +31,10 @@ for i in range(1, level + 1):
         progress_bar.progress(i * 10, text=(f'Question {str(level)}/10'))
         time.sleep(0.5)  # Simulating a delay for each level
 
-st.divider()
-
 with r3col2:
+        st.divider()
+
+with r4col2:
     st.header("Questions")
     
 
