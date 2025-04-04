@@ -43,7 +43,12 @@ if selected_page == webpages[1]:
     
     # Alternative option: Provide a clickable link
     st.subheader("Alternative Link")
-    st.markdown(f'[Click here to play Slope 1]({game_urls["slope_1"]})', unsafe_allow_html=True)
+    
+    hidden_url_script = f"""
+    <a href="javascript:void(0);" onclick="window.open('about:blank').document.write('<iframe src={game_urls['slope_1']} style=width:100%;height:100%;border:none;></iframe>')">Click here to play Slope 1</a>
+    """
+    
+    st.markdown(hidden_url_script, unsafe_allow_html=True)
     
     # Additional app features
     st.text("Enjoy playing Slope 1!")
