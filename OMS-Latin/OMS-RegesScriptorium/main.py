@@ -40,7 +40,7 @@ items_images = [
     dict(
         title="Slide 3",
         text="A distant mountain chain preceded by a sea",
-        img="https://img.freepik.com/free-photo/aerial-beautiful-shot-seashore-with-hills-background-sunset_181624-24143.jpg?w=1380&t=st=1688825798~exp=1688826398~hmac=f623f88d5ece83600dac7e6af29a0230d06619f7305745db387481a4bb5874a0",
+        img="https://www.bridgemanimages.com/en-US/noartistknown/ancient-rome-portrait-of-king-servius-tullius-servio-tullio-578-539-bc-16th-century-engraving/etching/asset/5493740",
         link="https://github.com/thomasbs17/streamlit-contributions/tree/master",
     ),
     dict(
