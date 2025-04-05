@@ -6,7 +6,7 @@ r1col1, r1col2 = st.columns([1, 0.5])
 rgap1col1, rgap1col2 = st.columns([1, 0.5])
 r2col1, r2col2 = st.columns([1, 2])
 r3col1, r3col2, r3col3 = st.columns([2, 2, 2])
-r4col1, r4col2, r4col3 = st.columns([2, 2, 2])# Create two columns, one smaller (1) and one larger (2)
+r4col1, r4col2, r4col3 = st.columns([0.1, 4, 0.1])# Create two columns, one smaller (1) and one larger (2)
 
 class RetrieveData:
     def __init__(self, operation):
