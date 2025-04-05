@@ -105,7 +105,7 @@ if selected_page == nav_pages[0]:
         st.write("**Servius Tullius** was a great king. He had many accomplishments during his rule, including **expanding the walls** around **Rome**. He also held the first official **census**, a count of the population. He also had **success in battles** and he also brought the **Cult of Diana** to **Rome**.")
     with r3col3:
         st.header("The Revolt")
-        st.write("**Servius Tullius** was eventually overthrown by the love intrest of his daughter **Tullia**, **Tarquinius Superbus**. **Servius** was kicked down the stairs of the **Senate House**, where he was then **ran over by his daughter** in a chariot.", label_visibility=hidden)
+        st.write("**Servius Tullius** was eventually overthrown by the love intrest of his daughter **Tullia**, **Tarquinius Superbus**. **Servius** was kicked down the stairs of the **Senate House**, where he was then **ran over by his daughter** in a chariot.")
     with r4col2:
         carousel(items=items_images)
     
