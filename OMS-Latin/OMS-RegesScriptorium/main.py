@@ -40,7 +40,7 @@ items_images = [
     dict(
         title="Slide 3",
         text="A distant mountain chain preceded by a sea",
-        img="https://images-cdn.bridgemanimages.com/api/1.0/image/600wm.FGL.91969450.7055475/5493740.jpg",
+        img="tshirt-merch.jpeg",
         link="https://github.com/thomasbs17/streamlit-contributions/tree/master",
     ),
     dict(
