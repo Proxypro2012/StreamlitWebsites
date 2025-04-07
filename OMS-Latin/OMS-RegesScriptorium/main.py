@@ -39,7 +39,7 @@ items_images = [
     ),
     dict(
         title="Slide 3",
-        text="A distant mountain chain preceded by a sea",
+        text="Merch for Servius Tullius",
         img="OMS-Latin/OMS-RegesScriptorium/tshirt-merch.jpeg",
         link="https://github.com/thomasbs17/streamlit-contributions/tree/master",
     ),
