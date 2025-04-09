@@ -29,7 +29,7 @@ items_images = [
         title="Slide 3",
         text="Merch for Servius Tullius",
         img="OMS-Latin/OMS-RegesScriptorium/tshirt-merch.jpeg",
-        link="https://github.com/thomasbs17/streamlit-contributions/tree/master",
+        link="scratch.mit.edu",
     )
 ]
 
