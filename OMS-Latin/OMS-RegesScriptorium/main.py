@@ -35,7 +35,7 @@ items_images = [
     dict(
         title="Slide 2",
         text="Servius",
-        img="https://en.wikipedia.org/wiki/Servius_Tullius#/media/File:Servius_by_Rouille.jpg"
+        img="https://upload.wikimedia.org/wikipedia/commons/1/1a/Servius_by_Rouille.jpg"
         
     )
 ]
