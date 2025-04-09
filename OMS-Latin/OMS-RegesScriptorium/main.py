@@ -28,15 +28,15 @@ items_images = [
     dict(
         title="Slide 1",
         text="Merch for Servius Tullius",
-        img="OMS-Latin/OMS-RegesScriptorium/tshirt-merch.jpeg",
-        link="scratch.mit.edu",
+        img="OMS-Latin/OMS-RegesScriptorium/tshirt-merch.jpeg"
+        
     ),
 
     dict(
         title="Slide 2",
         text="Servius",
-        img="https://en.wikipedia.org/wiki/Servius_Tullius#/media/File:Servius_by_Rouille.jpg",
-        link="scratch.mit.edu"
+        img="https://en.wikipedia.org/wiki/Servius_Tullius#/media/File:Servius_by_Rouille.jpg"
+        
     )
 ]
 
